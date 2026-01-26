@@ -1,7 +1,7 @@
 {
     "title": "Programming: Division",
     "slug": "programming-division",
-    "description": "A discussion of floating point and integer division in the context of programming.",
+    "description": "A discussion of floating point and floor division in the context of programming.",
     "authors": [
         "chris-cooling"
     ],
