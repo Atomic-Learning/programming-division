@@ -11,15 +11,30 @@
 <li>Dividing the integer 9 by the integer 4 gives the float 2.25</li>
 </ul>
 
-<h2>Floor Division</h2>
+<h2>Integer Division</h2>
 
-<p>Floor division is an operation where the result is rounded down to the nearest integer (toward minus infinity). Depending on the data types of the inputs and the language used, the final answer may be either an integer or a float. For example:</p>
+<p>Integer division is an operation where the result is rounded to an integer. Different programming languages implement this in different ways. The two most common approaches are floor division and truncation division. Depending on the data types of the inputs and the language used, the final answer may be either an integer or a float.</p>
+
+<h3>Floor Division</h3>
+
+<p>Floor division rounds the result down toward negative infinity. This means that for positive results, the fractional part is simply removed, but for negative results, the result is rounded further down. For example:</p>
 
 <ul>
-<li>Dividing the integer 4 by the integer 2 gives the value 2</li>
+<li>Dividing the integer 9 by the integer 4 gives the value 2</li>
+<li>Dividing the integer -7 by the integer 3 gives the value -3</li>
 <li>Dividing the float 9.5 by the integer 4 gives the value 2</li>
-<li>Dividing the integer -7 by the float 3.1 gives the value -3</li>
-<li>Dividing the float 5 by the float -2.4 gives the value -3</li>
+<li>Dividing the float -7.5 by the integer 3 gives the value -3</li>
+</ul>
+
+<h3>Truncation Division</h3>
+
+<p>Truncation division rounds the result toward zero. This means that for both positive and negative results, the fractional part is simply removed, moving closer to zero. For example:</p>
+
+<ul>
+<li>Dividing the integer 9 by the integer 4 gives the value 2</li>
+<li>Dividing the integer -7 by the integer 3 gives the value -2</li>
+<li>Dividing the float 9.5 by the integer 4 gives the value 2</li>
+<li>Dividing the float -7.5 by the integer 3 gives the value -2</li>
 </ul>
 
 <h2>Division by Zero</h2>
