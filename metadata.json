@@ -13,6 +13,8 @@
         "programming-integers-and-floats"
     ],
     "related": [
-        "programming-floating-point-precision"
+        "programming-floating-point-precision",
+        "programming-arithmetic-operators",
+        "programming-modulo"
     ]
 }
